@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
-df=pd.read_csv('data/train.csv', sep=',')
+df=pd.read_csv('train.csv', sep=',')
 # Titre du projet
 st.title("Projet de classification binaire Titanic")
 # Affichage du sommaire en tant que liste
